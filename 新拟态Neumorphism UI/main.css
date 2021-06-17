@@ -1,0 +1,74 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cards .card {
+  margin-left: 20px;
+}
+
+body {
+  background: #e8edf3;
+  font-family: "微软雅黑";
+  width: 100%;
+}
+
+body .boxs {
+  width: 100%;
+  padding: 30px;
+}
+
+body .boxs .btn {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 1.8vh;
+  border-radius: 1.4vh;
+  background: #e8edf3;
+  -webkit-box-shadow: 12px 12px 32px #cfd1dc,  -12px -12px 32px #ffffff;
+          box-shadow: 12px 12px 32px #cfd1dc,  -12px -12px 32px #ffffff;
+  text-align: center;
+  color: #27394d;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+body .boxs .card {
+  width: 100%;
+  padding: 20px;
+  border-radius: 1.4vh;
+  background: -o-linear-gradient(305deg, #fdffff, #d9deeb);
+  background: linear-gradient(145deg, #fdffff, #d9deeb);
+  -webkit-box-shadow: 12px 12px 40px #cfd1dc,  -12px -12px 40px #ffffff;
+          box-shadow: 12px 12px 40px #cfd1dc,  -12px -12px 40px #ffffff;
+  position: relative;
+}
+
+body .boxs .card .card-inner {
+  padding: 30px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 1.2vh;
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  background: #e8edf3;
+  color: #a9b7c5;
+}
+
+body .boxs .card .card-inner .title {
+  color: #27394d;
+  font-size: 22px;
+}
+
+body .boxs .card .card-inner .txt {
+  font-size: 18px;
+}

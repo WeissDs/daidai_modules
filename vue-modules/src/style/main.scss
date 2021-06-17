@@ -1,0 +1,62 @@
+// * {
+//   font-family: "Adobe 黑体 Std R";
+// }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+  margin:0;
+  padding:0;
+}
+ul li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+*{
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+blockquote, body, button, dd, dl, dt, fieldset, form, hr, input, legend, li, ol, p, pre, textarea, th, ul, div, span, a {
+    font: 14px Microsoft YaHei,Helvetica;
+}
+html,body{
+  // background-color:#f4f4f4;
+  background-color:#f5f8fa;
+  height:100%;
+  width:100%;
+}
+
+// card样式
+.el-card__body {
+    padding: 20px 20px 50px 20px;
+}
+.dxy-title {
+  position: relative;
+  span {
+    padding-left: 26px;
+    &::before {
+      content: "";
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background-color: #ff982e;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+// 解析文字样式
+.dxy-explain{
+  padding: 19px 20px;
+  margin: 20px;
+  /* border: 1px dashed #ff8100; */
+  font-size: 16px;
+  color: #868686;
+  /* font-weight: bold; */
+  text-indent: 2em;
+  background: #f5f5f5;
+
+}

@@ -1,0 +1,70 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.cards{
+  display: flex;
+  .card{
+    margin-left: 20px;
+  }
+}
+body{
+  background: #e8edf3;
+  font-family: "微软雅黑";
+  width:100%;
+  .boxs{
+    width:100%;
+    padding: 30px;
+    
+    // display: flex;
+    // align-items: center;
+    // 按钮 调整font-size大小自动变化
+    .btn{
+      margin-top: 20px;
+      // 通用
+      display: inline-block;
+      padding: 1.8vh;
+      border-radius: 1.4vh;
+      background: #e8edf3;
+      box-shadow:  12px 12px 32px #cfd1dc, 
+                  -12px -12px 32px #ffffff;
+      text-align: center;
+      color: #27394d;
+      font-size: 30px;
+      font-weight: bold;
+      span{
+      }
+    }
+    .card{
+      width:100%;
+      padding: 20px;
+      border-radius: 1.4vh;
+      background: linear-gradient(145deg, #fdffff, #d9deeb);
+      box-shadow:  12px 12px 40px #cfd1dc, 
+             -12px -12px 40px #ffffff;
+      position: relative;
+      
+      .card-inner{
+        padding: 30px;
+        position: absolute;
+        top:3px;
+        left:3px;
+        border-radius: 1.2vh;
+        width: calc(100% - 6px);
+        height: calc(100% - 6px);
+        background: #e8edf3;
+        color: #a9b7c5;
+        .title{
+          color:#27394d;
+          font-size:22px;
+        }
+        .txt{
+          font-size:18px;
+        }
+      }
+    }
+
+  }
+  
+}
