@@ -5,10 +5,13 @@ import RankingUI from './dxy/RankingUI'
 import RankingUI1 from './dxy/RankingUI/index1'
 import ProgressUI from './dxy/ProgressUI'
 import RowLineUI from './dxy/RowLineUI'
+import KeyboardUI from './dxy/KeyboardUI'
 
 import ElTabsUI from './ele/ElTabsUI'
 
-let components = { menuDXY, CheckboxDXY, TransferDXY, RankingUI, RankingUI1, ProgressUI, RowLineUI, ElTabsUI,  }
+import ViewPdf from './others/ViewPdf'
+
+let components = { menuDXY, CheckboxDXY, TransferDXY, RankingUI, RankingUI1, ProgressUI, RowLineUI, KeyboardUI, ElTabsUI, ViewPdf }
 
 export default {
   install(Vue) {

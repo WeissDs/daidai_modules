@@ -40,6 +40,11 @@ const router = new VueRouter({
           name: "cmp-echart",
           component: () => import('@/views/module/components/cmp-echart')
         },
+        {
+          path: "cmp-others",
+          name: "cmp-others",
+          component: () => import('@/views/module/components/cmp-others')
+        },
       ]
     },
     {

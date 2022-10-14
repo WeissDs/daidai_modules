@@ -74,6 +74,14 @@
       </div>
       <RowLineUI :data="rowLineData" style="width:60%;margin:0 auto;" />
     </el-card>
+
+    <!-- 数字+字母键盘 -->
+    <el-card>
+      <div slot="header" class="dxy-title">
+        <span>数字+字母键盘</span>
+      </div>
+      <KeyboardUI />
+    </el-card>
   </div>
 </template>
 

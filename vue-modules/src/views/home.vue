@@ -46,7 +46,8 @@ export default {
       leftMenuData: [
         { name: "自己写的组件", path: "module" },
         { name: "依赖element封装的组件", path: "cmp-element" },
-        { name: "依赖echarts封装的组件", path: "cmp-echart" }
+        { name: "依赖echarts封装的组件", path: "cmp-echart" },
+        { name: "依赖其他第三方插件的组件", path: "cmp-others" }
       ],
       // 使用路由的path为初始化值，刷新页面保留本页位置
       menuPath: this.$route.name,
